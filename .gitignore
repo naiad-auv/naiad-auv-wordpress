@@ -4,7 +4,6 @@ wp-content/cache/*
 wp-content/upgrade/*
 wp-content/uploads/*
 sitemap.*
-wp-config.php
 wp-config.local.php
 
 # Hidden system files
