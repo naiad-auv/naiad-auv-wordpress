@@ -39,7 +39,7 @@ else
 // which will be unique for each server.
 //
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+// /** The name of the database for WordPress */
 // define('DB_NAME', 'database_name_here');
 //
 // /** MySQL database username */
