@@ -1,17 +1,14 @@
-WordPress Base
-==============
-This is the basic structure for WordPress using a Git workflow for development,
-staging and live pushing of code.
-
-
-### Usage
-Don't use this git repository directly for specific projects instead clone it and
-push it to new online repository and start modifying it there.
+WordPress website - Naiad
+=========================
+This is the wordpress installation for the Naiad project.
 
 ### Installation
  1. Clone this repository.
- 2. Create a new remote where you have access from dev, staging and live
-    computers/server.
- 3. Push to new remote.
+TODO
 
-This remote will now be the repository for your specific wordpress-website project.
+### Update staging server
+TODO setup git hook to push to staging.
+
+### Update production server
+ 1. SSH to the server
+ 2. Run git update
