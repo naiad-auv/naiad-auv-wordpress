@@ -31,8 +31,7 @@ if ( file_exists( dirname( __FILE__ ) . '/wp-config.local.php' ) ) {
 }
 else
 {
-    syslog(LOG_EMERG, "Required Wordpress variables have not been
-        defined in wp-content.local.php");
+    exit("Couln't find ". dirname( __FILE__ ) . '/wp-config.local.php' );
 }
 
 // All settings below have been moved to the local settings file,
