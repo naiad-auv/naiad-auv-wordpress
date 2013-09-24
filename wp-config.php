@@ -108,7 +108,7 @@ else
 
 /** absolute path to the wordpress directory. */
 if ( !defined('abspath') )
-	define('abspath', dirname(__file__) . '/');
+	define('abspath', dirname(__file__) . '/wordpress/');
 
 /** sets up wordpress vars and included files. */
 require_once(abspath . 'wp-settings.php');
