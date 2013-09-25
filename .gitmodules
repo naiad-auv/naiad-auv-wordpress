@@ -10,3 +10,6 @@
 [submodule "wp-content/themes/wp-maintenance-mode"]
 	path = wp-content/themes/wp-maintenance-mode
 	url = https://github.com/wp-plugins/wp-maintenance-mode/
+[submodule "wp-content/plugins/wp-maintenance-mode"]
+	path = wp-content/plugins/wp-maintenance-mode
+	url = https://github.com/wp-plugins/wp-maintenance-mode/
