@@ -1,0 +1,139 @@
+v2.2.3	- Fixed checkboxes not saving in options panel due to obtuse isset condition
+	- Default footer title set to get_bloginfo('name')
+
+v2.2.2	- Added option to set footer background color
+
+v2.2.1	- Fixed sidebars to use is_active_sidebar rather then outdated function_exists in footer and front-page
+
+v2.2.0	- Fixed Localization namespace issue on options.php
+	- Simplified load demo funtion and removed secondary options table row to conform to directory guidelines
+	- Added missing localization on options array
+	- Fixed Undefined index notices caused by filter process
+	- Simplified sanitize_callback to remove filters with little/no value
+	- Added missing panel image from last version. 
+
+v2.1.9	- Added shortcode support to Action Text area 
+	- Added mobile menu support to Demo Content Loader
+
+v2.1.8	- Fixed menu display issue at @media (min-width: 768px) and (max-width: 979px) causing first sub-menu items to loose padding 
+	- Removed sidebar condition and output for post-type not availible in theme 
+
+v2.1.7	- Updated and simplified function nimbus_options_to_head to automate font filtering and setting of option variables
+
+v2.1.6	- Added mising google plus icon in footer: thanks to mdcosta911
+
+v2.1.5	- Fixed conflict with WP e-Commerce in nimbus_public.js
+
+v2.1.4	- Removed option to include additional site-wide js libraries to fix conflict with mobile menu and conform to theme directory guidelines on external resources
+
+v2.1.3	- Removed jquery.nivo.slider.js orphaned script
+	- Removed jquery.nivo.slider.js from license exceptions on readme
+	- Internationalized all non translatable text on tamplates  
+	- Internationalized all non translatable text in options panel
+
+v2.1.2	- Removed "create post object" for post-type not availible in theme from load_demo.php
+	- Updated all dirname(__FILE__) to get_template_directory()
+
+v2.1.1 	- Fixed content area overflow issue with oversized images with caption
+	- Fixed search returning wrong results 
+	- Fixed search results layout issues
+	- Removed Sidebar menu condition for post-type not availibe in theme
+	- Remove single, archive and taxonomy templates for post-type not availible in theme
+
+v2.1.0	- Fixed conflict with All-in-One Event Calendar by Timely by prefixing post_meta_single with nimbus_ in option array and on single.php and header.php
+	- Added "Respond.js v1.1.0: min/max-width media query polyfill" to fix header display issue in ie7-ie8 with update to readme.txt license information 	
+
+v2.0.9	- Updated readme.txt to include copyright attributions
+
+v2.0.8	- Added option to hide excerpts on frontpage features spots
+	- Added option to remove archive sidebar menu 
+
+v2.0.7  - Added readme.txt with script/font licence info
+	- removed orphaned font from nimbus framework directory
+
+v2.0.6  - Updated user guide to include mobile menu directions
+
+v2.0.5	- Fixed broken 404 layout issue
+	- Updated link to demo site on the options panel
+	- Updated URL to support info on dashboard widget
+	- Updated Google fonts where new styles were availible and add new Google fonts
+	- Added options panel item for social "like" buttons. Not availible to free theme users.
+	- Fixed comment thread image issue where backgrounds failed to match
+
+v2.0.4	- Updated data validation to Read More links
+
+v2.0.3	- Added data validation to Read More links
+
+v2.0.2	- Fixed broken localization function on archive.php
+	- Added links to frontpage featured images
+	- Added option to change "Read More" links from options panel 
+
+
+v2.0.1 	- Added info tabs about premium (not availible) features "shortcodes and Widgets" to options panel
+	- Added target="_blank" to social media links in footer
+	- Added Widgets on dashboard for newsletter signup and support
+
+v2.0.0 	- Changed Default Text Logo to blog_info 'name'
+	- Updated Tags
+	- Migrated background settings to add_theme_support (custom-background)
+
+v1.09 	- Updated Description to reflect removal of CPT Portfolio
+	- Updated Tags
+	- Fixed broken RSS Feed link
+	- Fixed post-single meta info display
+
+v1.08 	- Fixed comments_number when no comments are shown
+	- Fixed ie8 stylesheet url issues
+	- Removed portfolio CPT
+	- Add Custom CSS tab in options
+	- Fixed image clear issue on home template featured image
+
+v1.07	- Fixed primary menu display of submenus
+	- Fixed application of menus to locatons. 
+	- Added a mobile menu location
+
+v1.06 	- Fixed default menu display issue
+
+v1.05 	- Fix Word Wrap css issue
+	- Fix single post navigation
+	- Fix css float issue with last object in content causing broken bio
+	- Fix float/clear css issue after title 
+	- Clear float before comments 
+
+
+v1.04 	- Update support for blog index on frontpage 
+	- Fix overlap with text logo when using long menus
+	- Fix undefined index instance on options.php
+
+
+v1.03 	- Remove SEO features 
+	- Update to User Guide to clarify features comparison between free vs premium themes
+	- Remove comments settings from theme options
+	- Added post on frontpage functionality
+	- Footer copyright now uses get_bloginfo('name') to set default
+	- Added support for blog index on frontpage
+
+	
+v1.02 	- Update template structure provide frontpage image reminder
+      	- Fix title padding
+      	- Fix credit link in footer
+      	- Link logos
+      	- fix padding issue with contact area fonts  
+	- Use wp_enqueue_script() , wp_enqueue_style() for all instances of script/stylesheet includes
+	- Replace hook get_header with wp_enqueue_scripts where required
+	- Move scroll related JS from head to external .js page
+	- Remove favicon functionality
+	- Move wp_head to just before closing head.
+	- Filter title through wp_title()
+	- Fixed all namespacing issues
+	- Develp correctly namspaced support for translation
+	- Fix paths to additional stylesheets to use get_stylesheet_uri()
+	- Added comment display to pages
+	- Fix post title display when left blank
+	- Fixed broken read more links
+
+
+v1.01 	- Fix broken link on setup tab
+
+
+v1.0 	- Initial Launch 
