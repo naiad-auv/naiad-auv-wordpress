@@ -4,3 +4,6 @@
 [submodule "wp-content/themes/roots"]
 	path = wp-content/themes/roots
 	url = https://github.com/roots/roots.git
+[submodule "wp-content/themes/responsive"]
+	path = wp-content/themes/responsive
+	url = https://github.com/cyberchimps/responsive
