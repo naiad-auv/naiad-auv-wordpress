@@ -1,0 +1,163 @@
+/******************************************************************************************************
+Override WP admin styles
+******************************************************************************************************/
+
+#wpwrap { background:#fff url(../images/options_bg.png) repeat-x top left; }  
+#wphead { border-bottom: 1px solid #4e8bae; }
+
+/******************************************************************************************************
+Introduce new fonts
+******************************************************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+/******************************************************************************************************
+Architecture
+******************************************************************************************************/
+
+#options_wrapper { width:860px; background:#f0f0f0; margin:20px 0 0 10px; border:1px solid #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; -webkit-box-shadow: 0px 0px 7px 2px #717171; -moz-box-shadow: 0px 0px 7px 2px #717171; box-shadow: 0px 0px 7px 2px #717171;  }
+#options_header { width:860px; height:356px; border-bottom:1px solid #d7d7d7; position:relative;   }
+#options_content { width:860px; border-top:1px solid #fff; }
+
+/******************************************************************************************************
+Decor
+******************************************************************************************************/
+
+#panel_logo { position:absolute; top:0px; left:20px; }
+#panel_banner { position:absolute; top:110px; left:30px;  }
+
+/******************************************************************************************************
+Tabs
+******************************************************************************************************/
+
+#tab_wrapper { width:200px; float:left; margin:20px 0 0 0; background:url(../images/tabs_top.png) no-repeat top right; padding:8px 0 0 0;   }
+ul#tabs { width:200px; background:url(../images/tabs_bottom.png) no-repeat bottom right; padding:0 0 26px 0;   }
+ul#tabs li { background:url(../images/tabs_bg.png) no-repeat bottom right; margin:0px; }
+ul#tabs li a { font-size:13px; color:#717171; text-decoration:none; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; display:block; padding:9px 0 15px 20px;  }
+ul#tabs li a:hover {text-decoration:none;  }
+ul#tabs li.ui-state-active, ul#tabs li.ui-state-active:hover { background:url(../images/tabs_bg_active.png) no-repeat bottom right; margin:0px; }
+ul#tabs li.ui-state-active a, ul#tabs li.ui-state-active a:hover { color:#272727; }
+ul#tabs li.ui-state-hover { background:url(../images/tabs_bg.png) no-repeat bottom right; margin:0px; }
+ul#tabs li.ui-state-hover a { text-decoration:underline; color:#5d5d5d; }
+
+
+/******************************************************************************************************
+Info Column
+******************************************************************************************************/
+
+#form_wrapper { width:600px; float:right; margin:30px 30px 0 0; position:relative; }
+div.option_info_column { width:30px; float:left; }
+div.option_number { font-family: 'Lato', sans-serif; font-size:18px; color:#fff; height:30px; width:30px; margin:0 0 8px 0; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius:15px; border-radius: 15px; display:block; line-height:30px; text-align:center; background:#00a0ca; -webkit-box-shadow: inset 1px 1px 1px 0px #274657; -moz-box-shadow: inset 1px 1px 1px 0px #274657; box-shadow: inset 1px 1px 1px 0px #274657; text-shadow: 1px 1px 1px #00637C;  }
+div.info_box { width:400px; height:400px; overflow:auto; padding:20px; }
+
+
+/******************************************************************************************************
+Form Column textarea
+******************************************************************************************************/
+
+div.settings-error { border: 1px solid #01a0ca!important; background:#baf1ff!important; color:#464646!important; padding:10px!important; margin:0 0 20px 0;  }
+input#update_options_top { position:absolute; right:140px; top:-325px; }
+input#reset_options_top { position:absolute; right:0px; top:-325px; }
+input#load_demo_options_top { position:absolute; right:0px; top:-365px; }
+div.option_right { width:560px; float:right; margin:0px; padding:0px; }
+div#form_wrapper h1 { font-family: 'Lato', sans-serif; font-size:40px; color:#00a0ca; text-align:left; text-shadow: 1px 1px 1px #363636;
+filter: dropshadow(color=#363636, offx=1, offy=1); font-weight:normal; line-height:1.3em; }
+div.option_right input[type=text], div.option_right textarea { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size:18px; color:#464646; font-weight:normal; width:510px; padding:10px; -webkit-box-shadow: inset 1px 1px 2px 0px #424242; -moz-box-shadow: inset 1px 1px 2px 0px #424242; box-shadow: inset 1px 1px 2px 0px #424242; border-right:1px solid #fff; border-bottom:1px solid #fff; border-top:none; border-left:none; -webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; border-radius: 4px!important; }
+div.option_right textarea { min-height:150px; line-height:1.4em; }
+div.option_right textarea.code { font-family: "Courier New", Courier, monospace, sans-serif; font-size:14px; }
+div.colorSelector { z-index:1; left:10px; top:10px; }
+div.colorpicker { z-index:2; }
+div.option_right input[type=text].hex_field { width:235px; padding-left:50px; position:relative; left:-27px; top:0px; z-index:0; }
+div.option_right input[type=text].minitext{ width:100px; }
+div.option_right select { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size:18px!important; color:#464646!important; font-weight:normal!important; width:510px;  -webkit-box-shadow: inset 1px 1px 2px 0px #424242; -moz-box-shadow: inset 1px 1px 2px 0px #424242; box-shadow: inset 1px 1px 2px 0px #424242; border-right:1px solid #fff; border-bottom:1px solid #fff; border-top:none; border-left:none; -webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; border-radius: 4px!important; height:43px!important; padding:10px!important; }
+div.option_right input[type=radio] { }
+div.option_right label { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size:13px; color:#464646; padding:0 0 0 10px;   }
+div.option_right input[type=checkbox] { position:relative; top:-1px; margin-right:10px; }
+div.option_right  span.checkbox_label { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size:13px; color:#464646;   }
+.option_name { font-family: 'Lato', sans-serif; font-size:20px; color:#464646;  margin:0px; padding:3px 0 0 0;  }
+.option_description { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size:13px; font-style:italic; color:#717171; margin:10px 0 13px 0; width:510px; }
+div.split_select_right { width:235px; float:right; margin-right:57px; }
+div.split_select_right_color { width:275px; float:right; margin-right:17px; }
+div.split_select_left { width:235px; float:left;}
+div.split_select_left select, div.split_select_right select { width:235px; }
+div.split_select_left p, div.split_select_right p, p.option_sub_title, div.split_select_right_color p { margin:0px; padding:0px; font-style:italic; color:#717171; font-weight:bold; }
+#dotted_ln { background:url(../images/dotted_ln.jpg) repeat-x top left; margin:0 0 0 40px; width:510px; } 
+#update_options { margin:0 0 0 40px; }
+#reset_options { margin:0 0 0 20px; }
+.upload_image_button { margin:15px 0 0 1px; }
+.nimbus_button_blue { font-family: 'Lato', sans-serif; color:#fff!important; font-size:22px; background:#00a0ca!important;  padding:8px 15px 6px; -webkit-box-shadow: inset 1px 1px 2px 0px #274657; -moz-box-shadow: inset 1px 1px 2px 0px #274657; box-shadow: inset 1px 1px 2px 0px #274657;  border-right:1px solid #fff!important; border-bottom:1px solid #fff!important; border-top:none!important; border-left:none!important; -webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; border-radius: 4px!important;  font-weight:normal!important; text-transform:uppercase; text-shadow: 1px 1px 1px #00637C; text-decoration:none; }
+.nimbus_button_blue:hover { background:#0092B7!important; -webkit-box-shadow: inset 1px 1px 1px 1px #007491; -moz-box-shadow: inset 1px 1px 1px 1px #007491; box-shadow: inset 1px 1px 1px 1px #007491; cursor:pointer; }
+.nimbus_button_gray { font-family: 'Lato', sans-serif; color:#fff!important; font-size:22px; background:#b2b2b2!important;  padding:8px 15px 6px; -webkit-box-shadow: inset 1px 1px 2px 0px #575757; -moz-box-shadow: inset 1px 1px 2px 0px #575757; box-shadow: inset 1px 1px 2px 0px #575757;  border-right:1px solid #fff!important; border-bottom:1px solid #fff!important; border-top:none!important; border-left:none!important; -webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; border-radius: 4px!important;  font-weight:normal!important; text-transform:uppercase; text-shadow: 1px 1px 1px #575757;  }
+.nimbus_button_gray:hover { background:#969696!important; -webkit-box-shadow: inset 1px 1px 1px 1px #7c7c7c; -moz-box-shadow: inset 1px 1px 1px 1px #7c7c7c; box-shadow: inset 1px 1px 1px 1px #7c7c7c; cursor:pointer; }
+
+a.nimbus_button_blue { padding:4px 15px 2px;  }
+
+
+/******************************************************************************************************
+Form Column textarea
+******************************************************************************************************/
+
+#membership_tab p { margin:0px; padding:8px 0px 15px 0; }
+
+#membership_tab h2 { font-family: "Open Sans Condensed", sans-serif; font-weight:300; font-size:26px; }
+
+#membership_tab h3 { font-family: "Open Sans Condensed", sans-serif; font-weight:300; font-size:18px; padding:0px; margin:0px; color:#9a0e6f; }
+
+
+#membership_tab a.membership_button { color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #faa732;
+background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+background-image: -o-linear-gradient(top, #fbb450, #f89406);
+background-image: linear-gradient(to bottom, #fbb450, #f89406);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+border-color: #f89406 #f89406 #ad6704;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+margin-bottom: 0;
+display: inline-block;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+border: 1px solid #bbbbbb;
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 24px;
+line-height: 1em;
+padding: 12px 18px 9px;
+text-transform: uppercase;
+text-decoration:none;
+ }
+a.membership_button:hover { background-image: -moz-linear-gradient(top, #f89406, #fbb450);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f89406), to(#fbb450));
+background-image: -webkit-linear-gradient(top, #f89406, #fbb450);
+background-image: -o-linear-gradient(top, #f89406, #fbb450);
+background-image: linear-gradient(to bottom, #f89406, #fbb450); }
+
+/******************************************************************************************************
+General classes, clears and hides
+******************************************************************************************************/
+
+.clear { width:100%; height:1px; clear:both; }
+.clear5 { width:100%; height:5px; clear:both; }
+.clear10 { width:100%; height:10px; clear:both; }
+.clear15 { width:100%; height:15px; clear:both; }
+.clear20 { width:100%; height:20px; clear:both; }
+.clear25 { width:100%; height:25px; clear:both; }
+.clear30 { width:100%; height:30px; clear:both; }
+.clear35 { width:100%; height:35px; clear:both; }
+.clear40 { width:100%; height:40px; clear:both; }
+.hidden{ display: none; }
