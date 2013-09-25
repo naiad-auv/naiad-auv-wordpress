@@ -7,3 +7,6 @@
 [submodule "wp-content/themes/responsive"]
 	path = wp-content/themes/responsive
 	url = https://github.com/cyberchimps/responsive
+[submodule "wp-content/themes/wp-maintenance-mode"]
+	path = wp-content/themes/wp-maintenance-mode
+	url = https://github.com/wp-plugins/wp-maintenance-mode/
