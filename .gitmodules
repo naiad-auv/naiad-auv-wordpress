@@ -13,3 +13,6 @@
 [submodule "wp-content/plugins/wp-maintenance-mode"]
 	path = wp-content/plugins/wp-maintenance-mode
 	url = https://github.com/wp-plugins/wp-maintenance-mode/
+[submodule "wp-content/plugins/wp-piwik"]
+	path = wp-content/plugins/wp-piwik
+	url = https://github.com/wp-mirrors/wp-piwik.git
